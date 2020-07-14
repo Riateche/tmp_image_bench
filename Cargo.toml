@@ -1,0 +1,13 @@
+[package]
+name = "image_bench"
+version = "0.1.0"
+authors = ["Pavel Strakhov <ri@idzaaus.org>"]
+edition = "2018"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
+
+[dependencies]
+criterion = "0.3.3"
+image = "0.23.7"
